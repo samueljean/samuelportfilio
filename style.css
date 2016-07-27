@@ -1,0 +1,128 @@
+/*
+ Theme Name:   Twenty Fifteen Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Twenty Fifteen Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     _tk-master
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-fifteen-child
+ */
+ .site-header{
+ 	background-color: #3F51B5;
+ }
+ body{
+ 	padding-top: 70px;
+ /*	background-image: url("http://orig00.deviantart.net/12fd/f/2015/243/0/c/albumcoverfor_benprunty_fragments_sylviaritter_by_faith303-d97uftr.png");*/
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	width: 100%;
+ }
+ .navbar-collapse{
+ float: right;
+ padding-right: 10px;
+
+
+}
+.navbar-brand{
+	min-width: 132px;
+	min-height: 80px;
+	position: relative;
+    display: block;
+    padding: 25px 25px;
+}
+
+.navbar {
+    border-radius: 0px;
+	border: none;
+	margin-bottom: 0px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 25px 20px;
+}
+.navbar{
+	background-color: #303F9F;
+}
+.jumbotron h1 {
+    color: black;
+    font-size: 100px;
+     text-transform: uppercase;
+	 text-align: center;
+
+}
+
+.jumbotron{
+	margin: 0;
+    position:;
+    width: 100%;
+    padding-top: 200px;
+     padding-bottom: 300px;
+     background-color: transparent;
+}
+
+
+.jumbotron p{
+	text-align: center;
+}
+.page-title{
+	display: n
+}
+h1 page-title{
+	display: none;
+}
+.post-4 page-title{
+	display: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9E9E9E;
+    border-color: #2e6da4;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #636e78;
+    border-color: #204d74;
+}
+a:focus, a:hover {
+    color: #C5CAE9;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #FFFFFF;
+    background-color: rgba(231, 231, 231, 0.2);
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #516bff;
+    background-color: transparent;
+}
+a {
+    color: #212121;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
