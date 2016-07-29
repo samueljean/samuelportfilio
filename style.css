@@ -11,16 +11,24 @@
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-fifteen-child
  */
+ /* font pairing links */
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Andika" rel="stylesheet">
+ /*
+primary color:#303F9F;
+secondary color:#3F51B5;
+primary font- font-family: 'Andika', sans-serif;
+secondary fonts- font-family: 'Amatic SC', cursive;
+ */
+ /*styles*/
+
  .site-header{
- 	background-color: #3F51B5;
+ 	background-color:#3F51B5;
  }
  body{
  	padding-top: 70px;
- /*	background-image: url("http://orig00.deviantart.net/12fd/f/2015/243/0/c/albumcoverfor_benprunty_fragments_sylviaritter_by_faith303-d97uftr.png");*/
- 	background-repeat: no-repeat;
- 	background-position: center;
- 	background-attachment: fixed;
- 	width: 100%;
+    background-color: white;
+    background-blend-mode: multiply;
+    color: white;
  }
  .navbar-collapse{
  float: right;
@@ -45,15 +53,17 @@
     position: relative;
     display: block;
     padding: 25px 20px;
+    text-align: center;
 }
 .navbar{
 	background-color: #303F9F;
 }
 .jumbotron h1 {
-    color: black;
+    color: #0078ff;
     font-size: 100px;
      text-transform: uppercase;
 	 text-align: center;
+     font-family: 'Andika', sans-serif;
 
 }
 
@@ -83,15 +93,19 @@ h1 page-title{
     color: #fff;
     background-color: #9E9E9E;
     border-color: #2e6da4;
+    font-family: 'Amatic SC', cursive;
 }
 .btn-primary:hover {
     color: #fff;
     background-color: #636e78;
     border-color: #204d74;
+
 }
 a:focus, a:hover {
-    color: #C5CAE9;
+    color: #4ac0ff;
     text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #FFFFFF;
@@ -108,18 +122,37 @@ a:focus, a:hover {
     background-color: transparent;
 }
 a {
-    color: #212121;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+.page-title{
+    display: none;
+}
+.navbar-brand{
+    display: none;
+}
+.navbar-nav {
+   text-align: center;
+    margin: 0;
+}
+.site-title{
+    display: none;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #4ac0ff;
+    background-color: transparent;
+    font-size: 20px;
+}
 
-
-
-
-
-
-
-
-
+.site-header{background-color: #3F51B5;}
+.well p{
+    color: black;
+}
+p{
+    color: white;
+}
 
 
 
