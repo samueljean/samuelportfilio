@@ -167,7 +167,15 @@ p{
 }
 .site-footer{
     background-color: black;
-    
+    position:absolute;
+    bottom:0;
+    width: 100%;
+}
+.wpcf7-text {
+    color: black;
+}
+.wpcf7-textarea{
+    color: black;
 }
 
 
