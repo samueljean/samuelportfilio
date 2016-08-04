@@ -1,5 +1,5 @@
 /*
- Theme Name:   Twenty Fifteen Child
+ Theme Name:   samuel-theme
  Theme URI:    http://example.com/twenty-fifteen-child/
  Description:  Twenty Fifteen Child Theme
  Author:       John Doe
@@ -13,12 +13,14 @@
  */
  /* font pairing links */
  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Andika" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
 
  /*
 primary color:#303F9F;
 secondary color:#3F51B5;
 primary font- font-family: 'Andika', sans-serif;
 secondary fonts- font-family: 'Amatic SC', cursive;
+site-discription- font-family: 'Indie Flower', cursive;
 
  */
  /*styles*/
@@ -74,7 +76,7 @@ secondary fonts- font-family: 'Amatic SC', cursive;
     position:;
     width: 100%;
     padding-top: 200px;
-     padding-bottom: 300px;
+    
      background-color: transparent;
 }
 
@@ -177,7 +179,9 @@ p{
 .wpcf7-textarea{
     color: black;
 }
-
+.site-description{
+font-family: 'Indie Flower', cursive;
+}
 
 
 
